@@ -24,3 +24,7 @@ spring:
     password: 2106@2308Ud
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
